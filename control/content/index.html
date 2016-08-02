@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="socialPluginContent">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	<!-- CSS -->
+	<!-- CSS -->
+    <link href="../../../../styles/helper.css" rel="stylesheet">
+    <link href="../../../../styles/siteIcons.css" rel="stylesheet">
+	
+	<!-- JS -->
+    <script src="../../../../scripts/jquery/jquery-1.11.2.min.js"></script>
+	<script src="../../../../scripts/buildfire.js"></script>
+    <script src="../../../../scripts/angular/angular.min.js"></script>
+    <script src="../../../../scripts/angular/angular-route.min.js"></script>
+    <script src="../../../../scripts/angular/ui-bootstrap.min.js"></script>
+    <script src="assets/js/moment.js"></script>
+    <script src="../../../../scripts/angular/ng-infinite-scroll.custom.js"></script>
+    <script src="assets/js/modals.js"></script>
+    <script src="app.js"></script>
+    <script src="app.service.js"></script>
+    <script src="enums.js"></script>
+    <script src="assets/js/filters.js"></script>
+    <script src="controllers/content.home.controller.js"></script>
+    <script>
+        moment().format();
+    </script>
+    <!-- Meta-->
+    <meta charset="UTF-8">
+</head>
+<body class="scrollable">
+<div class="">
+    <div class="content" ng-view=""></div>
+</div>
+</body>
+</html>
