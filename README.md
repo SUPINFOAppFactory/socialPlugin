@@ -3,6 +3,10 @@
 
 "Keep your users engaged and communicating in your app with social walls. When users perform an interactive action (i.e. liking, commenting), other users in that group will even get an automated SMARTPush™ notification
 
+###Plugin overview 
+
+http://support.appdocumentation.com/knowledge-base/social-wall-plugin-tutorial
+
 ##How to run and test
 ###Prerequisite are node.js,bower,npm,karma, karma-coverage
 ```bash
